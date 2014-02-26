@@ -41,3 +41,12 @@ gem 'unicorn'
 # gem 'debugger', group: [:development, :test]
 
 gem 'rails_12factor', group: :production
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'quiet_assets'
+  gem 'pry-rails'
+  gem 'awesome_print'
+  gem 'spring'
+end
